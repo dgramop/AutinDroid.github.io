@@ -1,5 +1,5 @@
 .demo-layout-transparent {
-  background: url('assets/MatDesignWallsmall.png') center / cover;
+  background: url('/assets/MatDesignWallsmall.png') center / cover;
 }
 .demo-layout-transparent .mdl-layout__header,
 .demo-layout-transparent .mdl-layout__drawer-button {

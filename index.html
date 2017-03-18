@@ -3,82 +3,9 @@
 <script src="bower_components/material-design-lite/material.min.js"></script>
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
+<link href="/src/main.css" rel="stylesheet">
 <head>
     <!-- Uses a transparent header that draws on top of the layout's background -->
-    <style>
-.demo-layout-transparent {
-  background: url('assets/MatDesignWallsmall.png') center / cover;
-}
-.demo-layout-transparent .mdl-layout__header,
-.demo-layout-transparent .mdl-layout__drawer-button {
-
-  color: black;
-}
-body {
-    background-color: black;
-}
-p.AutinDroid {
-    color: #f35626;
-    background-image: -webkit-linear-gradient(92deg,#2196F3,#1565C0);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-animation: hue 30s infinite linear;
-    font-size: 144px;
-    font-family: Roboto;
-    position:relative
-}
-h1.AutinDroid {
-    color: #f35626;
-    background-image: -webkit-linear-gradient(92deg,#2196F3,#1565C0);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-animation: hue 30s infinite linear;
-    font-size: 144px;
-    font-family: Roboto;
-    position:relative;
-    text-align: center;
-    text-shadow: 0 0 21px rgba(0, 0, 0, 0.3);
-}
-.container {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-    margin: 1rem;
-    padding: 1rem;
-    position: relative
-}
-
-@-webkit-keyframes hue {
-    from {
-      -webkit-filter: hue-rotate(0deg);
-    }
-    to {
-      -webkit-filter: hue-rotate(360deg);
-    }
-}
-.card {
-   opacity: 1;
-    margin: 1rem;
-    padding:1rem;
-    max-width: calc(100%);
-    background-color: #000000;
-    position:relative;
-    z-index: 1;
-
-
-}
-p.text {
-    text-font: Roboto;
-    font-size: 72px;
-    color: #ffffff;
-    z-index: 2;
-    text-align: center;
-    text-shadow: 0 0 21px rgba(0, 0, 0, 0.3);
-}
-
-</style>
 
     <div class="demo-layout-transparent mdl-layout mdl-js-layout">
         <header class="mdl-layout__header mdl-layout__header--transparent">

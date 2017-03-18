@@ -7,8 +7,10 @@
 }
 body {
     background-color: black;
-    height: 100vh;
-    width:100vw;
+    height: 100%;
+    width:100%;
+    padding:0%;
+    margin:0%;
 }
 p.AutinDroid {
     color: #f35626;

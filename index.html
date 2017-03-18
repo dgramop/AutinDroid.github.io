@@ -1,0 +1,77 @@
+<html>
+<head>
+    <link rel="stylesheet" href="sylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+    <style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2196F3;
+    box-shadow: 0 0 24px rgba(0, 0, 0, 0.3);
+}
+
+li a.navtext {
+    float: right;
+}
+li a.title {
+    float: left;
+   }
+
+li a {
+    display: block;
+    color: white;
+    font-family: "Roboto";
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #0069bf;
+}
+.AutinDroid {
+    color: #f35626;
+    background-image: -webkit-linear-gradient(92deg,#2196F3,#1565C0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 30s infinite linear;
+    font-size: 72px;
+    font-family: Roboto
+
+
+}
+@-webkit-keyframes hue {
+    from {
+      -webkit-filter: hue-rotate(0deg);
+    }
+
+    to {
+      -webkit-filter: hue-rotate(360deg);
+    }
+}
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+}
+
+</style>
+</head>
+<body>
+
+<ul>
+    <li><a class="title" href="index.html">AutinDroid</a></li>
+    <li><a class="navtext">News</a></li>
+    <li><a class="navtext">Contact</a></li>
+    <li><a class="navtext">About</a></li>
+</ul>
+<div class="container">
+    <h1 class="AutinDroid">AutinDroid</h1>
+</div>
+</body>
+</html>
